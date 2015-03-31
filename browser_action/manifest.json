@@ -5,7 +5,8 @@
   "description": "An example browser action extension",
   "author": "Toma",
   "browser_action": {
-    "default_title": "Use this to open the popup"
+    "default_title": "Use this to open the popup",
+    "default_popup": "popup/popup.html"
   },
   "background": {
     "scripts": [ "background.js" ],
